@@ -10,9 +10,13 @@ export const Contact = () => {
           <h1 style={{ color: "#1E2022" }}>SAY HELLO</h1>
         </div>
         <div>Feel Free to Reach out</div>
-        <div className="temp_header">Email</div>
+        <div className="temp_header">
+          <img src="./email.svg" alt="" />
+        </div>
         <div>sarang1221@gmail.com</div>
-        <div className="temp_header">Phone</div>
+        <div className="temp_header">
+          <img src="./phone.svg" alt="" />
+        </div>
         <div>+91 7588303199</div>
         <div className="say_hello_links">
           <div>

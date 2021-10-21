@@ -39,14 +39,32 @@ button > img {
   width: 10%;
 }
 
-.about_me_container {
+.about_me_container,
+.skills_icon {
   display: grid;
+}
+
+.skills_icon div > img {
+  width: 30%;
 }
 
 @media (max-width: 900px) {
   .about_me_container {
     grid-template-rows: auto auto;
     text-align: center;
+  }
+  .skills_icon {
+    grid-template-columns: repeat(2, 40%);
+    text-align: center !important;
+    margin-left: 0% !important;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .my_skills {
+    text-align: center;
+  }
+  .skills_icon div > img {
+    width: 30%;
   }
   .cv_button {
     width: 50vw;
@@ -57,6 +75,16 @@ button > img {
   .about_me_container {
     justify-content: center;
     grid-template-columns: 20% 70%;
+  }
+  .skills_icon {
+    grid-template-columns: repeat(7, 13%);
+    margin-left: 25%;
+  }
+  .skills_icon div > img {
+    width: 30%;
+  }
+  .my_skills {
+    margin-left: 25%;
   }
   .cv_button {
     width: 40vw;
@@ -75,7 +103,8 @@ button > img {
 }
 
 .cv_button,
-.about_skills {
+.about_skills,
+.skills_icon {
   margin-left: 25%;
 }
 .cv_button {
@@ -107,6 +136,8 @@ button > img {
 .mongo {
   background-color: #52616b;
 }
-.about_me {
-  font-size: 2em !important;
+.about_me,
+.my_skills {
+  font-size: 2em;
+  padding-bottom: 3%;
 }
