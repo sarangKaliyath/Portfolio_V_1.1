@@ -1,7 +1,7 @@
 .main_container {
   width: 100vw;
   justify-content: center;
-  padding: 10% 0%;
+  padding: 5% 0%;
   background-color: #f0f5f9;
   font-family: "Noto Sans Mono", monospace;
 }
@@ -49,9 +49,15 @@ button > img {
 }
 
 @media (max-width: 900px) {
+  .main_container {
+    padding-bottom: 20%;
+  }
   .about_me_container {
     grid-template-rows: auto auto;
     text-align: center;
+  }
+  .about_me + h4 {
+    padding: 0% 3%;
   }
   .skills_icon {
     grid-template-columns: repeat(2, 40%);
@@ -77,8 +83,12 @@ button > img {
     grid-template-columns: 20% 70%;
   }
   .skills_icon {
-    grid-template-columns: repeat(7, 13%);
+    grid-template-columns: repeat(4, 20%);
     margin-left: 25%;
+    /* border: 1px solid black; */
+    grid-column-gap: 2%;
+    grid-row-gap: 5%;
+    padding: 3% 0%;
   }
   .skills_icon div > img {
     width: 30%;
@@ -91,10 +101,13 @@ button > img {
   }
 }
 
-.about_me_image > img {
-  padding-top: 10%;
+.about_me_image div > img {
   width: 50%;
-  border-radius: 50%;
+  /* border: 1px solid black; */
+  border-radius:15%;
+}
+.about_me_image > div {
+  padding: 10% 0%;
 }
 
 .about_skills {

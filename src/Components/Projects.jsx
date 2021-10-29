@@ -5,7 +5,7 @@ import { gotoLink } from "./Onclick_function.js";
 export const Projects = () => {
   return (
     <div className="container" id="projects">
-      <div>
+      <div className="project_head">
         <h1>Projects</h1>
       </div>
       <div>
@@ -23,6 +23,7 @@ export const Projects = () => {
                     );
                   }}
                 />
+                <img src="/link.svg" alt="" />
               </div>
             </div>
             <h4>
@@ -35,7 +36,7 @@ export const Projects = () => {
               <img src="/home_page.png" alt="" />
             </div>
             <div>
-              <h4>Built using JS, HTML and, CSS</h4>
+              <h4>Tech: JS, HTML and, CSS</h4>
             </div>
           </div>
           <div className="project_box">
@@ -51,6 +52,7 @@ export const Projects = () => {
                     );
                   }}
                 />
+                <img src="/link.svg" alt="" />
               </div>
             </div>
             <h4>
@@ -62,7 +64,7 @@ export const Projects = () => {
             <div className="project_image">
               <img src="/home_page.png" alt="" />
             </div>
-            <h4>Built using Express, MongoDB, Node.js and, EJS</h4>
+            <h4>Tech: Express, MongoDB, Node.js and, EJS</h4>
           </div>
 
           <div className="project_box">
@@ -78,6 +80,7 @@ export const Projects = () => {
                     );
                   }}
                 />
+                <img src="/link.svg" alt="" />
               </div>
             </div>
             <h4>
@@ -87,7 +90,7 @@ export const Projects = () => {
             <div className="project_image">
               <img src="/placeholder.png" alt="" />
             </div>
-            <h4>Built using JS, HTML and, CSS</h4>
+            <h4>Tech: JS, HTML and, CSS</h4>
           </div>
         </div>
       </div>

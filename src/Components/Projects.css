@@ -1,6 +1,6 @@
 .container {
   width: 100vw;
-  padding-top: 10%;
+  padding-top: 5%;
   background-color: #1e2022;
   padding-bottom: 10%;
   font-family: "Noto Sans Mono", monospace;
@@ -13,7 +13,7 @@ h1 {
   .project_container {
     grid-template-columns: 30% 30% 30%;
     grid-column-gap: 4%;
-    padding: 3%;
+    padding: 5% 3%;
   }
 }
 
@@ -29,7 +29,9 @@ h1 {
 .project_image > img {
   width: 90%;
 }
-
+.project_head{
+  margin-bottom: 5%;
+}
 @media (max-width: 900px) {
   .project_container {
     grid-template-rows: auto auto auto;
@@ -42,8 +44,13 @@ h1 {
   }
 }
 
+.icons {
+  display: flex;
+  justify-content: center;
+}
 .icons > img {
   cursor: pointer;
+  margin: 0% 5%;
 }
 
 .icons > img:hover {
