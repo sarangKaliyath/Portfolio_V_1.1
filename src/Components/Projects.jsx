@@ -80,7 +80,11 @@ export const Projects = () => {
                     );
                   }}
                 />
-                <img src="/link.svg" alt="" />
+                <img
+                  src="/link.svg"
+                  alt=""
+                  onClick={()=>{gotoLink("https://star-wars-black.vercel.app/");}}
+                />
               </div>
             </div>
             <h4>
