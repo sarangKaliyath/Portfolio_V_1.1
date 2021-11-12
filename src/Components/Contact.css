@@ -36,8 +36,12 @@
 .reach_out > div {
   display: flex;
   justify-content: center;
-  font-size: 5vmin;
+  font-size: 3vmin;
   font-weight: 500;
+}
+
+.reach_out{
+  margin-top: 8%;
 }
 
 .reach_out,
