@@ -18,12 +18,16 @@ export const Projects = () => {
                   src="/github.svg"
                   alt=""
                   onClick={() => {
-                    gotoLink(
-                      "https://github.com/sarangKaliyath/Nykaa_Clone.git"
-                    );
+                    gotoLink("https://github.com/sarangKaliyath/U2_Clone");
                   }}
                 />
-                <img src="/link.svg" alt="" />
+                <img
+                  src="/link.svg"
+                  alt=""
+                  onClick={() => {
+                    gotoLink("u2ubk.netlify.app");
+                  }}
+                />
               </div>
             </div>
             <h4>
@@ -47,12 +51,16 @@ export const Projects = () => {
                   src="/github.svg"
                   alt=""
                   onClick={() => {
-                    gotoLink(
-                      "https://github.com/sarangKaliyath/Nykaa_Clone_V2.0.git"
-                    );
+                    gotoLink("https://github.com/sarangKaliyath/U3_V3.0");
                   }}
                 />
-                <img src="/link.svg" alt="" />
+                <img
+                  src="/link.svg"
+                  alt=""
+                  onClick={() => {
+                    gotoLink("https://u3-ubk.herokuapp.com/");
+                  }}
+                />
               </div>
             </div>
             <h4>
@@ -83,7 +91,9 @@ export const Projects = () => {
                 <img
                   src="/link.svg"
                   alt=""
-                  onClick={()=>{gotoLink("https://star-wars-black.vercel.app/");}}
+                  onClick={() => {
+                    gotoLink("https://star-wars-black.vercel.app/");
+                  }}
                 />
               </div>
             </div>
