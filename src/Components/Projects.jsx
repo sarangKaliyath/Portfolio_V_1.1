@@ -25,7 +25,7 @@ export const Projects = () => {
                   src="/link.svg"
                   alt=""
                   onClick={() => {
-                    gotoLink("u2ubk.netlify.app");
+                    gotoLink("https://u2ubk.netlify.app/homepage");
                   }}
                 />
               </div>
