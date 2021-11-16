@@ -5,7 +5,7 @@ export const data = [
     website: "https://u2ubk.netlify.app/homepage",
     project_thumbnail: "/home_page.png",
     txt1: "Clone of a Popular E-commerce Website that sells beauty,wellness, and fashion products.",
-    tech: "Tech: JS, HTML and, CSS",
+    tech: "Tech: JS, HTML and, CSS.",
   },
   {
     title: "Nykaa V2.0",
@@ -13,7 +13,7 @@ export const data = [
     website: "https://u3-ubk.herokuapp.com/",
     project_thumbnail: "/home_page.png",
     txt1: "This is the predecessor of the the Nykaa website built with a distinct tech-stack.",
-    tech: "Tech: Express, MongoDB, Node.js and, EJS",
+    tech: "Tech: Express, MongoDB, Node.js and, EJS.",
   },
   {
     title: "Star Wars",
@@ -21,6 +21,6 @@ export const data = [
     website: "https://star-wars-black.vercel.app/",
     project_thumbnail: "/placeholder.png",
     txt1: "A self designed project inspired by characters of Star Wars franchise.",
-    tech: "Tech: JS, HTML and, CSS",
+    tech: "Tech: JS, HTML and, CSS.",
   },
 ];

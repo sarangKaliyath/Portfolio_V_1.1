@@ -51,7 +51,7 @@ export const About = () => {
           <button
             onClick={() => {
               gotoLink(
-                "https://drive.google.com/file/d/1WlxLkivnuMQNYNz2ymIMBtIg96_ZKsCA/view?usp=sharing"
+                "https://drive.google.com/file/d/1pNES1JIjSyqT73iVtJKniXXosflawTh6/view?usp=sharing"
               );
             }}
           >
