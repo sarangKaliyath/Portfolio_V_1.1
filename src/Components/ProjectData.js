@@ -23,4 +23,20 @@ export const data = [
     txt1: "A self designed project inspired by characters of Star Wars franchise.",
     tech: "Tech: JS, HTML and, CSS.",
   },
+  {
+    title: "Tumblr",
+    repo: "https://github.com/sarangKaliyath/Tumblr_clone",
+    website: "https://laughing-edison-2847b1.netlify.app/",
+    project_thumbnail: "/tumblr_home.png",
+    txt1: "Clone of American micro-blogging and social networking website.",
+    tech: "Tech: JS, React, Express, MongoDB.",
+  },
+  {
+    title: "Easy-Delivery",
+    repo: "https://github.com/piyushrana00456/Easy-delivery",
+    website: "https://easy-delivery.netlify.app/",
+    project_thumbnail: "/easy_delivery_home.png",
+    txt1: "Hackathon Project focused towards assisting Logistics and Operations.",
+    tech: "Tech:JS, React, Express, MongoDB, WebSockets.",
+  },
 ];
